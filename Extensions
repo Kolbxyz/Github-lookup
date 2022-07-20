@@ -1,0 +1,84 @@
+local Extensions = {
+	-- Audio files --
+	["mp3"] = "Moving Pictures Expert Group-3 file";
+	["mp4"] = "Moving Pictures Expert Group-4 file";
+	["mpa"] = "Moving Pictures Expert Group-2 file";
+	["ogg"] = "Ogg Vorbis audio file";
+	["wav"] = "WAV file";
+	
+	-- Compressed files --
+	["7z"] = "7-Zip compressed file";
+	["deb"] = "Debian software package file";
+	["pkg"] = "Package file";
+	["rar"] = "RAR file";
+	["rpm"] = "Red Hat Package Manager";
+	["tar.gz"] = "Tarball compressed file";
+	["z"] = "Z compressed file";
+	["zip"] = "Zip compressed file";
+	
+	-- Disc and media file extensions --
+	["bin"] = "Binary disc image";
+	["dmg"] = "macOS X disk image";
+	["iso"] = "ISO disc image";
+	["toast"] = "Toast disc image";
+	["vcd"] = "Virtual CD";
+	
+	-- Data and database file extensions --
+	["csv"] = "Comma separated value file";
+	["dat"] = "Data file";
+	["sql"] = "SQL database file";
+	["xml"] = "XML file";
+	["tar"] = "Linux / Unix tarball file archive";
+	
+	-- Executable file extensions --
+	["apk"] = "Android package file";
+	["bat"] = "Batch file";
+	["exe"] = "Executable file";
+	["jar"] = "Java Archive file";
+	["msi"] = "Windows installer package";
+	["py"] = "Python file";
+	
+	-- Image file format --
+	["gif"] = "Graphics Interchange Format image";
+	["ico"] = "Icon file";
+	["jpg"] = "Joint Photographic Experts Group image"; ["jpeg"] = "Joint Photographic Experts Group image";
+	["png"] = "Portable Network Graphics image";
+	["svg"] = "Scalable Vector Graphics file";
+	
+	-- Internet related --
+	["html"] = "Hypertext Markup Language file";
+	["js"] = "JavaScript file";
+	["php"] = "PHP file";
+	["xhtml"] = "extensible hypertext markup language";
+	
+	-- Programming --
+	["odp"] = "OpenOffice Impress presentation file";
+	["ppt"] = "PowerPoint presentation";
+	["pptx"] = "PowerPoint Open XML presentation";
+	["c"] = "C and C++ source code file";
+	["class"] = "Java class file";
+	["cs"] = "Visual C# source code file";
+	["json"] = "JavaScript Object Notation file";
+	["rbxm"] = "ROBLOX model file";
+	["rbxl"] = "ROBLOX place file";
+	
+	-- Spreadsheet file formats by file extension --
+	["ods"] = "OpenOffice Calc spreadsheet file";
+	["xls"] = "Microsoft Excel file";
+	["dll"] = "dynamic-link library";
+	["ink"] = "Windows shortcut file";
+	["ini"] = "Initialization file";
+	
+	-- Video file formats by file extension --
+	["avi"] = "Audio Video Interleave file";
+	["mov"] = "Apple QuickTime movie file";
+	["mpg"] = "Moving Pictures Expert Group file"; ["mpeg"] = "Moving Pictures Expert Group file";
+	["doc"] = "Microsoft Word file";
+	["docx"] = "Microsoft Word file";
+	["pdf"] = "Portable Document Format";
+	["rtf"] = "Rich Text Format";
+	["txt"] = "Plain text file";
+	["wpd"] = "WordPerfect document";	
+}
+
+return Extensions
