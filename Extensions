@@ -1,3 +1,5 @@
+--- game:GetService("HttpService"):GetAsync(("https://raw.githubusercontent.com/Kolbxyz/Github-lookup/main/Extensions")) ---
+
 local Extensions = {
 	-- Audio files --
 	["mp3"] = "Moving Pictures Expert Group-3 file";
