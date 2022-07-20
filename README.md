@@ -8,9 +8,9 @@ The game uses Github's APIs with game:GetService("HttpService"):GetAsync("API_UR
 
 To get the user's public data I simply use this:
 
-  local url = "https://api.github.com"
-  local data = httpService:GetAsync(string.format("%s/users/%s", url, Username))
-  return httpService:JSONDecode(data)
+ 	 local url = "https://api.github.com"
+  	local data = httpService:GetAsync(string.format("%s/users/%s", url, Username))
+	  return httpService:JSONDecode(data)
 
 To get the user's repos I use this:
 
